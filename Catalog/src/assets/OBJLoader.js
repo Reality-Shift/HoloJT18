@@ -326,18 +326,9 @@ function createOBJLoader() {
 
     constructor: OBJLoader,
 
-    load: function (url, onLoad, onProgress, onError) {
-
+    load: function (text, onLoad, onProgress, onError) {
       var scope = this;
-
-      var loader = new THREE.FileLoader(scope.manager);
-      loader.setPath(this.path);
-      loader.load(url, function (text) {
-
-        onLoad(scope.parse(text));
-
-      }, onProgress, onError);
-
+      onLoad(scope.parse(text));
     },
 
     setPath: function (value) {

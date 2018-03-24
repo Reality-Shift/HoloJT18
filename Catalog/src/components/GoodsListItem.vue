@@ -36,18 +36,17 @@ export default {
         0.01,
         10
       );
-      this.camera.position.z = 5;
+      this.camera.position.z = 0.5;
 
       var scene = new THREE.Scene();
       this.scene = scene;
 
-      const objLoader = new OBJLoader();
-
-      const materials = [ new THREE.MeshStandardMaterial() ];
-      objLoader.setMaterials( materials );
-      objLoader.setPath( '' );
-      objLoader.load('bunny.obj', object => {
-        scene.add(object);
+      this.$http.get('http://localhost:8080/static/bunny.obj').then((response) => {
+        const objLoader = new OBJLoader();
+        objLoader.load(response.body, object => {
+          console.log(scene);
+          scene.add(object);
+        });
       });
 
       this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
