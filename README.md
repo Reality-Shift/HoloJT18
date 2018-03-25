@@ -9,7 +9,7 @@
 * Server for connection all this stuff with Minikura API
 
 ## Server deployment
-Install `.Net Core 2.0` and `dotnet run` in server root folder
+Install `.Net Core 2.0` and execute `dotnet run` in server root folder
 
 ## Web server deployment
 `npm run build` in `Catalog` folder. Move it to static files server
