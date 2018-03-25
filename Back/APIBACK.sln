@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIBACK", "APIBACK\APIBACK.csproj", "{D87EDAF7-754A-4820-B15D-7FDD9D20C1D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Obj", "Obj\Obj.csproj", "{E1A7F7D4-2E89-46DE-8ED6-E5B418BD8A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRCodeScanner", "QRCodeScanner\QRCodeScanner.csproj", "{034F81A8-2AA6-4D63-B892-C9BC60E7FDD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D87EDAF7-754A-4820-B15D-7FDD9D20C1D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D87EDAF7-754A-4820-B15D-7FDD9D20C1D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D87EDAF7-754A-4820-B15D-7FDD9D20C1D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D87EDAF7-754A-4820-B15D-7FDD9D20C1D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A7F7D4-2E89-46DE-8ED6-E5B418BD8A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A7F7D4-2E89-46DE-8ED6-E5B418BD8A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A7F7D4-2E89-46DE-8ED6-E5B418BD8A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A7F7D4-2E89-46DE-8ED6-E5B418BD8A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{034F81A8-2AA6-4D63-B892-C9BC60E7FDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034F81A8-2AA6-4D63-B892-C9BC60E7FDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034F81A8-2AA6-4D63-B892-C9BC60E7FDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034F81A8-2AA6-4D63-B892-C9BC60E7FDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C49CB9A8-1E51-4691-92D3-F586CE597A30}
+	EndGlobalSection
+EndGlobal
