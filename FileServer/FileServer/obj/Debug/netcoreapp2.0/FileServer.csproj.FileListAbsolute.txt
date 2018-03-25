@@ -1,0 +1,11 @@
+C:\Users\maksa\source\repos\HoloJT18\FileServer\FileServer\bin\Debug\netcoreapp2.0\FileServer.deps.json
+C:\Users\maksa\source\repos\HoloJT18\FileServer\FileServer\bin\Debug\netcoreapp2.0\FileServer.runtimeconfig.json
+C:\Users\maksa\source\repos\HoloJT18\FileServer\FileServer\bin\Debug\netcoreapp2.0\FileServer.runtimeconfig.dev.json
+C:\Users\maksa\source\repos\HoloJT18\FileServer\FileServer\bin\Debug\netcoreapp2.0\FileServer.dll
+C:\Users\maksa\source\repos\HoloJT18\FileServer\FileServer\bin\Debug\netcoreapp2.0\FileServer.pdb
+C:\Users\maksa\source\repos\HoloJT18\FileServer\FileServer\obj\Debug\netcoreapp2.0\FileServer.csprojResolveAssemblyReference.cache
+C:\Users\maksa\source\repos\HoloJT18\FileServer\FileServer\obj\Debug\netcoreapp2.0\FileServer.csproj.CoreCompileInputs.cache
+C:\Users\maksa\source\repos\HoloJT18\FileServer\FileServer\obj\Debug\netcoreapp2.0\FileServer.AssemblyInfoInputs.cache
+C:\Users\maksa\source\repos\HoloJT18\FileServer\FileServer\obj\Debug\netcoreapp2.0\FileServer.AssemblyInfo.cs
+C:\Users\maksa\source\repos\HoloJT18\FileServer\FileServer\obj\Debug\netcoreapp2.0\FileServer.dll
+C:\Users\maksa\source\repos\HoloJT18\FileServer\FileServer\obj\Debug\netcoreapp2.0\FileServer.pdb
