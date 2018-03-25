@@ -28,8 +28,8 @@
 
                 <div class="container">
                   <div class="row">
-                    <b-button type="submit" variant="danger" class="col-md-3" :disabled="$v.$invalid">Submit</b-button><br>
-                    <router-link to="/register" class="btn btn-link text-danger">I don't have account</router-link>
+                    <b-button type="submit" variant="danger" :disabled="$v.$invalid">Submit</b-button>
+                    <router-link to="/login" class="btn btn-link text-danger">I have account</router-link>
                   </div>
                 </div>
               </b-form>
@@ -69,7 +69,7 @@ export default {
   },
   methods: {
     onSubmit() {
-      this.$session.set('shopName', this.shopName);
+      this.$session.set("shopName", this.shopName);
       this.$router.replace('/shop');
     }
   },
