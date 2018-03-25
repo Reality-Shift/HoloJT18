@@ -16,7 +16,7 @@ export default {
 }
 
 html, body {
-  height: 100%;
+  min-height: 100%;
 }
 
 .container-full {

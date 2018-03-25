@@ -621,7 +621,6 @@ function createOBJLoader() {
           material.flatShading = sourceMaterial.smooth ? false : true;
 
           createdMaterials.push(material);
-
         }
 
         // Create mesh
