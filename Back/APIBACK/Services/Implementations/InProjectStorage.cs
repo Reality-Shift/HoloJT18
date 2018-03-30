@@ -56,7 +56,7 @@ namespace APIBACK.Services.Implementations
         {
             var file = Path.Combine(folderName, id, "model.obj");
             if (!File.Exists(file)) return null;
-            Obj.Class1.loadMesh(file,
+            ObjectWork.Class1.loadMesh(file,
                 out var positions,
                 out var texCors,
                 out var normals,

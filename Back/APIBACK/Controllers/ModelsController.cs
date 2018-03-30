@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using APIBACK.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace APIBACK.Controllers
 {
@@ -22,6 +23,7 @@ namespace APIBACK.Controllers
         public async Task<IActionResult> Get(string id)
         {
             var target = await modelsStorage.UnrealModel(id);
+            System.IO.File.WriteAllText(@"D:\Users\maksa\Desktop\lol.txt", JsonConvert.SerializeObject(target, Formatting.Indented));
             if (target == null)
                 return BadRequest();
             return Json(target);
